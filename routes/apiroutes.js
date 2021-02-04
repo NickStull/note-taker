@@ -17,7 +17,7 @@ module.exports = function (app) {
         const dbData = JSON.parse(dB)
 
         // console.log(dbData.slice(-1)[0])
-        newNote.id = (dbData.length > 0) ? dbData.slice(-1)[0].id + 1 : 0
+        newNote.id = (dbData.length > 0) ? dbData.slice(-1)[0].id + 1 : 1
         dbData.push(newNote);
         fs.writeFile(path.join(__dirname, "../db/db.json"), JSON.stringify(dbData), (err) => err ? console.error(err) : console.log("Saved"));
     });
