@@ -6,6 +6,8 @@
 
 This application allows the user to write, save, and delete notes. For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
 
+[Deployed Application](https://shielded-mountain-11634.herokuapp.com/)
+
 ## Table of Contents
 
 * [Installation](#installation)
@@ -30,7 +32,7 @@ npm i
 
 ## Usage
 
-The application was built and tested using nodemon. You can start the server using node server.js, then open your localserver in the browser.
+The application was built and tested using nodemon. You can start the server using node server.js, then open your localhost in the browser.
 
 ## Contributing
 
